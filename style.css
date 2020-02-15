@@ -1,0 +1,110 @@
+/*  Colors and fonts */
+body {
+	background: #FFC7C7;
+	color: 333333;
+	font-family: Playfair Display;
+	font-size: 17px;
+	text-align: center;
+}
+
+h1 {
+	color: 470031;
+	font-family: Abril Fatface;
+	font-size: 32px;
+	text-align: center;
+}
+
+h2 {
+	color: 470031;
+	font-family: Abril Fatface;
+	font-size: 30px;
+	font-weight: lighter;
+	text-align: center;
+}
+
+h3 {
+	color: 971549;
+	font-family: Abril Fatface;
+	font-size: 24px;
+	font-weight: lighter;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+
+a:hover {
+	background-color: #FFC7C7;
+}
+
+.btn-pink {
+	background-color:470031;	
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;}
+}
+.btn-pink:hover {
+	background-color:#FFC7C7;
+}
+
+.text-justify {
+	text-align: justify;
+	text-orientation: center;
+}
+
+.list-inline {
+  list-style: none; 
+  padding-left: 0px; 
+}
+.list-inline li {
+  display: inline; 
+  padding: 10px; 
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: 971549;
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: white;
+}
+
+#intro p {
+	margin-bottom: 40px 
+}
+
+div {
+	margin: 80px 0px 40px 16px
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	background: white;                         
+    padding: 30px;                        
+	border-radius: 4px;                        
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	width: 600px;
+	margin: 10px auto;
+}
+
+.img-circle {
+border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+ }
+ @media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
